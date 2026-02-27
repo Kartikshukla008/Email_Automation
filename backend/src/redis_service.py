@@ -1,6 +1,6 @@
 import os
 import json
-import redis.asyncio as redis
+import redis.asyncio as redis # type: ignore
 
 # Environment variables
 REDIS_HOST = os.getenv("REDIS_HOST", "localhost")

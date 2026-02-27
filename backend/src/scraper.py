@@ -1,8 +1,8 @@
 import re
 import asyncio
-import aiohttp
+import aiohttp # type: ignore
 import ssl
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # type: ignore
 from urllib.parse import urljoin, urlparse, unquote
 from email_validator import validate_email, EmailNotValidError
 
